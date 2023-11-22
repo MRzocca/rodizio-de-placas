@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana;
+    font-size: large;
+    background-color: rgb(5, 0, 12);
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 20px;
+    color: white;
+}
+
+label {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    margin: 50px;
+}
+
+option {
+    background-color: rgb(5, 0, 12);
+    color: white;
+    font-size: medium;
+}
+
+button {
+    font-size: larger;
+    border: 2px solid white;
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(24, 17, 122);
+    transition: 0.5s;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(30, 97, 160);
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#myFooter {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(17, 10, 31);
+}
+
+#myFooterText {
+    margin: 20px;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
